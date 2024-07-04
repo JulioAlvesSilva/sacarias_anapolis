@@ -1,0 +1,11 @@
+.banner{
+    height: 99vh;
+    overflow: hidden;
+    margin-bottom: 100px;
+    &_divs{
+        height: auto;
+    }
+    img{
+        width: 99vw;
+    }
+}

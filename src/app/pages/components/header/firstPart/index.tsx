@@ -11,7 +11,7 @@ export default function FirstPart() {
                     <FaWhatsapp />
                 </div>
                 <div className={styles.header_chat_soci}>
-                    <h4>Siga-nos nas redes sociais</h4>
+                    <h4>Redes sociais</h4>
                     <div>
                         <FaInstagram />
                         <FaFacebookSquare />

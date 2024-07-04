@@ -1,7 +1,11 @@
-import FirstPart from "../components/header/firstPart/firstPart";
+import HeaderMain from "../components/header";
+import Banner from "./components/banner";
 
-export default function MainPage(){
-    return(
-        <FirstPart/>
+export default function MainPage() {
+    return (
+        <>
+            <HeaderMain />
+            <Banner />
+        </>
     )
 }

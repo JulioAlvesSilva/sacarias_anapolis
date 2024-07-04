@@ -1,0 +1,16 @@
+.second{
+    background-color: rgb(0, 87, 0);
+    border-top: 1px solid rgba(255, 255, 255, .5);
+    padding: 5px 100px;
+    display: flex;
+    justify-content: space-around;
+    span{
+        color: white;
+        font-weight: 600;
+        font-size: 1.1rem;
+        &:hover{
+            color: gray;
+            cursor: pointer;
+        }
+    }
+}
