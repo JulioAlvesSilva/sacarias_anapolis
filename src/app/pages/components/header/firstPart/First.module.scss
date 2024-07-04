@@ -1,0 +1,47 @@
+.header{
+    background-color: rgb(0, 87, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    img{
+        width: 140px;
+        padding: 5px 0;
+    }
+    &_chat{
+        display: flex;
+        gap: 20px;
+        color: white;
+        svg{
+            font-size: 1.8rem;
+            
+        }
+        h4{
+            font-size: 1.2rem;
+        }
+        &_whats{
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            &:hover{
+                color: gray;
+                cursor: pointer;
+            }
+        }
+        &_soci{
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            div{
+                display: flex;
+                gap: 5px;
+                svg{
+                    &:hover{
+                        color: gray;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}
