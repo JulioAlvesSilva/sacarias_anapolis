@@ -1,0 +1,43 @@
+.products{
+    overflow: hidden;
+    height: 450px;
+    position: relative;
+    h2{
+        color: rgb(1, 75, 1);
+        font-size: 2rem;
+        font-weight: 800;
+        text-align: center;
+        padding: 10px 0;
+    }
+    img{
+        width: 90%;
+        height: 300px;
+        object-fit: cover;
+        margin: auto;
+        border-radius: 20px;
+        box-shadow: 10px 10px 10px gray;
+    }
+}
+.botao{
+    padding: 10px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    background-color: green;
+    border: 1px solid black;
+    border-radius: 5px;
+    position: absolute;
+    right: 20px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: white;
+    &:hover{
+        background-color: rgb(144, 238, 144);
+        color: black;
+        cursor: pointer;
+    }
+    svg{
+        font-size: 1.5rem;
+    }
+}

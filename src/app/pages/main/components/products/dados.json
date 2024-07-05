@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "nome": "imagem1.jpg",
+        "alt": "mercadoria01"
+    },
+    {
+        "id": 2,
+        "nome": "imagem2.jpg",
+        "alt": "mercadoria02"
+    },
+    {
+        "id": 3,
+        "nome": "imagem3.jpg",
+        "alt": "mercadoria03"
+    },
+    {
+        "id": 4,
+        "nome": "imagem4.jpg",
+        "alt": "mercadoria04"
+    },
+    {
+        "id": 5,
+        "nome": "imagem5.jpg",
+        "alt": "mercadoria05"
+    }
+]
