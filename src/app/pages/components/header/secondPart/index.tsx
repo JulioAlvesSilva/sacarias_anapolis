@@ -6,11 +6,11 @@ export default function SecondPart(){
             <a href="#nossosProdutos">
                 Nossos Produtos
             </a>
-            <a href="#nossosProdutos">
+            <a href="#CEO">
                 CEO
             </a>
-            <a href="#nossosProdutos">
-                Entre em contato
+            <a href="#Empresa">
+                Nossa empresa
             </a>
         </section>
     )

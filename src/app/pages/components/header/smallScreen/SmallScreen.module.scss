@@ -1,0 +1,48 @@
+.smallScreen{
+    background-color: rgb(0, 87, 0);
+    padding: 15px 10px;
+    &_1pt{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        img{
+            width: 100px;
+        }
+        svg{
+            margin-right: 10px;
+            color: white;
+            font-size: 2rem;
+        }
+    }
+    &_2pt{
+        margin-top: 10px;
+        color: white;
+        &_whats{
+            display: flex;
+            align-items: center;
+            h4{
+                font-size: 1.1rem;
+            }
+            svg{
+                font-size: 1.5rem;
+                margin-left: 5px;
+            }
+        }
+        &_soci{
+            display: flex;
+            align-items: center;
+            margin: 10px 0;
+            h4{
+                font-size: 1.1rem;
+            }
+            svg{
+                font-size: 1.5rem;
+                margin-left: 5px;
+            }
+            div{
+                margin: 0;
+                padding: 0;
+            }
+        }
+    }
+}

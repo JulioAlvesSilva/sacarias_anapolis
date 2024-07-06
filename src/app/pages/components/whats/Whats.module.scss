@@ -1,0 +1,13 @@
+.whats{
+    img{
+        color: green;
+        width: 50px;
+        position: fixed;
+        bottom: 15px;
+        right: 10px;
+        &:hover{
+            width: 60px;
+            cursor: pointer;
+        }
+    }
+}

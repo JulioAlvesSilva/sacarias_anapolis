@@ -5,5 +5,8 @@
     }
     img{
         width: 99vw;
+        @media(max-width: 800px){
+            width: 100vw;
+        }
     }
 }

@@ -1,11 +1,21 @@
+'use client'
 import FirstPart from "./firstPart";
 import SecondPart from "./secondPart";
-
-export default function HeaderMain(){
-    return(
+import useScreenSize from "@/hooks/useScreenSize";
+import SmallScreen from "./smallScreen";
+export default function HeaderMain() {
+    const telaP = useScreenSize()
+    return (
         <section>
-            <FirstPart/>
-            <SecondPart/>
+            {telaP ?
+                <>
+                    <SmallScreen />
+                </> :
+                <>
+                    <FirstPart />
+                    <SecondPart />
+                </>
+            }
         </section>
     )
 }

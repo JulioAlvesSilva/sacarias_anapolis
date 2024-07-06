@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "nome": "imagem1.jpg",
+        "alt": "empresa01"
+    },
+    {
+        "id": 2,
+        "nome": "imagem2.jpg",
+        "alt": "empresa02"
+    },
+    {
+        "id": 3,
+        "nome": "imagem3.jpg",
+        "alt": "empresa03"
+    },
+    {
+        "id": 4,
+        "nome": "imagem4.jpg",
+        "alt": "empresa04"
+    },
+    {
+        "id": 5,
+        "nome": "imagem5.jpg",
+        "alt": "empresa05"
+    },
+    {
+        "id": 6,
+        "nome": "imagem6.jpg",
+        "alt": "empresa06"
+    },
+    {
+        "id": 7,
+        "nome": "imagem7.jpg",
+        "alt": "empresa07"
+    }
+]
