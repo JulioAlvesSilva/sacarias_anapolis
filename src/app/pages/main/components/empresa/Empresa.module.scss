@@ -5,7 +5,7 @@
         display: none !important;
     }
     h2{
-        color: rgb(1, 75, 1);
+        color: rgb(0, 94, 0);
         font-size: 2rem;
         font-weight: 800;
         text-align: center;
@@ -17,11 +17,12 @@
     }
     &_texto{
         display: flex;
-        width: 90%;
-        padding: 20px;
+        width: 95%;
+        padding: 30px 20px;
         margin: 0 auto;
         box-shadow: 10px 10px 10px gray;
         border-radius: 20px;
+        background-color: white;
         @media(max-width: 800px){
             padding: 5px;
             width: 100%;
