@@ -20,6 +20,18 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
       <head>
+        <meta charSet="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="author" content="Sacarias e big bag Anápolis" />
+        <meta property="og:title" content="Sacarias e big bag Anápolis" />
+        <meta property="og:description" content="Se você procura sacarias e Big Bags de qualidade, você esta no lugar certo! Na Sacarias e Big Bags Anápolis, oferecemos produtos de primeira linha e atendimento excepcional. Solicite seu orçamento agora e garanta as melhores sacarias e big bags do mercado." />
+        <meta property="og:image" content="/imagens/logo.png" />
+        <meta property="og:url" content="https://sacarias-anapolis.vercel.app/" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Sacarias e big bag Anápolis" />
+        <meta name="twitter:description" content="Se você procura sacarias e Big Bags de qualidade, você esta no lugar certo! Na Sacarias e Big Bags Anápolis, oferecemos produtos de primeira linha e atendimento excepcional. Solicite seu orçamento agora e garanta as melhores sacarias e big bags do mercado." />
+        <meta name="twitter:image" content="/imagens/logo.png" />
+        <meta name="twitter:url" content="https://sacarias-anapolis.vercel.app/" />
         <script type="application/ld+json" dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
