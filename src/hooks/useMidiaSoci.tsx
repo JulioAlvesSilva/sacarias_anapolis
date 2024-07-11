@@ -1,6 +1,6 @@
 const ativarBotao = async (botao: string) => {
     try {
-        const urlAtual = "https://server-js-phi.vercel.app/sacarias";
+        const urlAtual = process.env.URL_PAINEL;
         const dataHoraAtual = new Date();
         const dataISO = dataHoraAtual.toISOString();
         const horaISO = dataHoraAtual.toTimeString().split(' ')[0];
