@@ -32,14 +32,8 @@ export default function RootLayout({
         <meta name="twitter:description" content="Se você procura sacarias e Big Bags de qualidade, você esta no lugar certo! Na Sacarias e Big Bags Anápolis, oferecemos produtos de primeira linha e atendimento excepcional. Solicite seu orçamento agora e garanta as melhores sacarias e big bags do mercado." />
         <meta name="twitter:image" content="/imagens/logo.png" />
         <meta name="twitter:url" content="https://sacarias-anapolis.vercel.app/" />
-        <script type="application/ld+json" dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Organization",
-            "url": "https://sacarias-anapolis.vercel.app/",
-            "logo": "/imagens/logo.png"
-          })
-        }} />
+        <link rel="icon" type="image/png" href="/imagens/logo.png" />
+        <link rel="icon" type="image/x-icon" href="/imagens/favicon.ico"/>
       </head>
       <body className={inter.className}>
         {children}
