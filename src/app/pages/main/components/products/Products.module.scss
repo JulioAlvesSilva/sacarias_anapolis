@@ -1,7 +1,10 @@
 .products{
     overflow: hidden;
-    height: 500px;
+    height: 80vh;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background-color: rgba(255, 255, 255, .5);
     @media(max-width: 800px){
         height: 460px;
@@ -18,7 +21,7 @@
     }
     img{
         width: 90%;
-        height: 350px;
+        height: 400px;
         object-fit: cover;
         margin: auto;
         border-radius: 10px;
@@ -35,10 +38,11 @@
     background-color: green;
     border: 1px solid black;
     border-radius: 5px;
-    position: absolute;
-    right: 20px;
+    width: 250px;
+    margin: 0 10px 10px auto;
     margin-top: 20px;
     display: flex;
+    justify-content: center;
     align-items: center;
     gap: 5px;
     color: white;
